@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    background-image: url(/assets/images/header.jfif) ;
+    background-size: 100px;
+    height: 100px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#card{
+    gap: 20px;
+    width: 35rem;
+    height: 12rem;
+    display: flex;
+    border-radius: 1rem;
+    line-height: 5rem;
+    background-color: rgb(50, 50, 50);
+}
+#card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#card img{
+    border-radius: 0.6rem  0  0 0.7rem;
+    width: 250px;
+
+}
