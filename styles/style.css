@@ -1,26 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-   
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 header{
-    background-image: url(/assets/images/header.jfif) ;
     background-size: 100px;
     height: 100px;
 }
+
 main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(45, 45, 45);
+    height: 100vh;
+    gap: 50px;
 }
-#card{
+#card{  
+    margin-top: 3rem;
     gap: 20px;
     width: 35rem;
-    height: 12rem;
+    height: 14rem;
     display: flex;
     border-radius: 1rem;
-    line-height: 5rem;
-    background-color: rgb(50, 50, 50);
+    line-height: 2rem;
+    background-color: rgb(97, 97, 97);
+    color: white;
 }
 #card2{
     display: flex;
@@ -29,6 +36,7 @@ main{
 }
 #card img{
     border-radius: 0.6rem  0  0 0.7rem;
-    width: 250px;
+    width: 230px;
+
 
 }
