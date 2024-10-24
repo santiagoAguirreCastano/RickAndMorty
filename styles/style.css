@@ -6,7 +6,6 @@
 
 header{
     background-image: url(/assets/img/banner.jfif);
-    width: 100vw;
     height: 12.5vh;
 }
 
@@ -14,23 +13,28 @@ header{
 main{
     display: flex;
     justify-content: center;
+    background-color: rgb(26, 43, 37);
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #card{
-    width: 32%;
+    margin-top: 2rem;
+    width: 25%;
     height: 15rem;
     display: flex;
-    border: 3px black solid;
+
     border-radius: 2rem;
     background-color: rgb(10, 10, 41);
 }
 
 #card > img{
-    width: 360px;
+    width: 230px;
     border-radius: 1.8rem 0 0 1.8rem;
 }
 
-#Personaje{
+#Character{
     justify-content: center;
     display: flex;
     flex-direction: column;
